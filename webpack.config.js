@@ -1,7 +1,8 @@
 module.exports = {
     entry: {
-        demo1: './demo1/index.js',
-        demo2: './demo2/index.js',
+        demo1: './demo1',
+        demo2: './demo2',
+        demo3: './demo3',
     },
     output: {
         filename: '[name]/bundle.js',
