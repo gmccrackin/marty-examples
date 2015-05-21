@@ -1,0 +1,33 @@
+{
+  "name": "marty-examples",
+  "version": "1.0.0",
+  "description": "Hopefully some decent examples of Marty. Marty JS is a flux implementation http://martyjs.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmccrackin/marty-examples.git"
+  },
+  "keywords": [
+    "marty",
+    "flux",
+    "examples"
+  ],
+  "author": "Grady McCrackin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gmccrackin/marty-examples/issues"
+  },
+  "homepage": "https://github.com/gmccrackin/marty-examples#readme",
+  "devDependencies": {
+    "babel-core": "^5.4.5",
+    "babel-loader": "^5.1.3",
+    "node-libs-browser": "^0.5.0",
+    "webpack": "^1.9.7"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
