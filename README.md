@@ -8,7 +8,7 @@ Install dependencies
 
 Install required CLI tools
 
-`$ npm install -g webpack-dev-server`
+`$ npm install -g webpack-dev-server json-server`
 
 ## Run Examples
 `$ webpack-dev-server`
@@ -19,3 +19,9 @@ goto: [http://localhost:8080](http://localhost:8080)
 
 ### Demo1
 Basically the simplest example I could think of that uses actions and stores.
+
+### Demo2
+Add queries and state source. Uses a remote source for initial list only!
+
+> Requires json-server to be running in the background.
+`$ json-server --watch db.json`
