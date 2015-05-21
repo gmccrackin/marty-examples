@@ -49,7 +49,7 @@ export default Marty.createContainer(Users, {
     listenTo: 'userStore',
     fetch: {
         users() {
-            return this.context.app.userStore.state
+            return this.context.app.userStore.getUsers()
         }
     }
 });
