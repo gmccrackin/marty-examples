@@ -1,6 +1,7 @@
 module.exports = {
     entry: {
         demo1: './demo1/index.js',
+        demo2: './demo2/index.js',
     },
     output: {
         filename: '[name]/bundle.js',
