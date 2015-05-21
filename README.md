@@ -25,3 +25,9 @@ Add queries and state source. Uses a remote source for initial list only!
 
 > Requires json-server to be running in the background.
 `$ json-server --watch db.json`
+
+### Demo3
+Use action creator to update remote source when adding new users.
+
+> Requires json-server to be running in the background.
+`$ json-server --watch db.json`
