@@ -19,7 +19,7 @@ class Users extends React.Component {
         let name = this.refs.name.getDOMNode();
 
         this.context.app.userActionCreators.addUser({
-            id: id.value,
+            id: parseInt(id.value),
             name: name.value
         });
 
